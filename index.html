@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="description" content="The personal and professional website of Steven Sell">
+		<meta name="keywords" content="">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="description" content="">
+		<meta name="author" content="Steven Sell">
+		<title>Steven Sell</title>
+		<link rel="mask-icon" color="#00539F">
+		<link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=58" sizes="58x58">
+		<link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=76" sizes="76x76">
+		<link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=87" sizes="87x87">
+		<link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=120" sizes="120x120">
+		<link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=152" sizes="152x152">
+		<link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=167" sizes="167x167">
+		<link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=180" sizes="180x180">
+		<link href="css/theme.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">
+		<link href="css/icomoon.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://rawgit.com/leizongmin/js-xss/master/dist/xss.js"></script>
+		<link rel="icon" type="image/ico" href="/images/favicon.ico" />
+		<script src="https://www.gstatic.com/firebasejs/3.7.6/firebase.js"></script>
+		<script src="firebase-init.js"></script>
+		<script src="js/auth.js"></script>
+		<script defer src="js/main.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'UA-99117354-1', 'auto');
+			ga('send', 'pageview');
+			
+		</script>
+	</head>
+	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+		<nav class="navbar navbar-default navbar-fixed-top anim frost" role="navigation">
+			<div class="container">
+				<input type="checkbox" id="navbar-toggle-cbox">
+				<div class="navbar-header page-scroll">
+					<label for="navbar-toggle-cbox" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</label>
+				</div>
+				<div class="navbar-collapse collapse text-center" style="height: 1px;">
+					<ul class="nav navbar-nav text-uppercase">
+						<li class="hidden active">
+							<a class="page-scroll" href="#page-top"></a>
+						</li>
+						<li class="">
+							<a class="page-scroll" href="#education"><span>&nbsp;Education</span></a>
+						</li>
+						<li class="">
+							<a class="page-scroll" href="#projects"><span>&nbsp;Projects</span></a>
+						</li>
+						<li class="">
+							<a class="page-scroll" href="#experience"><span>&nbsp;Experience</span></a>
+						</li>
+						<li class="">
+							<a class="page-scroll" href="#other"><span>&nbsp;Other</span></a>
+						</li>
+						<li class="">
+							<a class="page-scroll" href="#contact"><span>&nbsp;Contact</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<main class="circuit">
+			<section id="intro" class="section intro-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<img src="images/profile.jpg" alt="Profile Picture of Steven Sell" id="profilePic" class="img-circle center-block">
+							<h1 class="text-primary text-uppercase">Steven Sell</h1>
+							<br>
+							<p>Student at the <a href="//www.udel.edu" class="nounder">University of Delaware</a></p>
+							<p>Computer Science & CyberSecurity</p>
+							<p>IT Assistant at <a href="//www.sepax-tech.com" class="nounder">Sepax Technologies, Inc.</a></p>
+							<p>(June 5th 2017) Software Test Engineer at <a href="//www.cscglobal.com" class="nounder">CSC</a></p>
+							<p>
+								<a href="resources/Resume.pdf" class="nounder text-uppercase">
+								<br>
+								<span class="h2 icon-file-pdf"></span>
+								<br>Download Resume
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="login-container center">
+				<div class="panel-group">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" href="#login-collapse"><span id="message">Login</span></a>
+							</h4>
+						</div>
+						<div id="login-collapse" class="panel-collapse collapse">
+							<img src="images/github.png" id="git-login" />
+							<button class="roundButton" id="logout">Logout</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br />
+			<section id="education" class="section education-section">
+				<div class="container">
+					<h1 class="text-center">Education</h1>
+					<div class="row">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h3 class="panel-title">University of Delaware</h3>
+							</div>
+							<div class="panel-body">
+								<p>B.S. Computer Science &mdash; 2017</p>
+								<p>Minor Computer Engineering &mdash; 2017</p>
+								<div class="col-sm-6 col-xs-12">
+									<ul class="list-group">
+										<li class="list-group-item"><strong class="text-uppercase">Concentration Courses</strong></li>
+										<li class="list-group-item">CISC465 - Intro to Cybersecurity</li>
+										<li class="list-group-item">CPEG494 - System Hardening & Protection</li>
+										<li class="list-group-item">CISC450 - Computer Networks I</li>
+										<li class="list-group-item">CPEG470 - Web Applications Security</li>
+									</ul>
+								</div>
+								<div class="col-sm-6 col-xs-12">
+									<ul class="list-group">
+										<li class="list-group-item"><strong class="text-uppercase">Technical Electives</strong></li>
+										<li class="list-group-item">CISC372 - Parallel Programming</li>
+										<li class="list-group-item">CISC437 - Database Systems</li>
+										<li class="list-group-item">CISC483 - Introduction to Data Mining</li>
+										<li class="list-group-item">CISC484 - Machine Learning</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="projects" class="section projects-section">
+				<div class="container">
+					<h1 class="text-center">Projects</h1>
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="well well-lg text-center">
+								<h2 class="icon-github-logo"></h2>
+								<p class="lead">Check out my Github page!</p>
+								<p>
+									<a href="//github.com/TheUnCola" class="btn btn-primary btn-lg" role="button"><span class="icon-github" style="vertical-align:baseline"></span>&nbsp;TheUnCola</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6 col-xs-12">
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<h3 class="panel-title">Forum</h3>
+								</div>
+								<div class="panel-body">
+									<p>My group and I created a forum for users to log in and make topics, posts, and comments.</p>
+								</div>
+								<div class="panel-footer text-center">
+									<div class="btn-group">
+										<a href="//github.com/TheUnCola/cpeg470-forum.git" class="btn btn-default"><span class="icon-github"></span>&nbsp;Forum</a>
+										<a href="//github.com/TheUnCola/cpeg470-forum/subscription" class="btn btn-default"><span class="icon-github-watch"></span></a>
+										<a href="//github.com/TheUnCola/cpeg470-forum/fork" class="btn btn-default"><span class="icon-github-fork"></span></a>
+										<a href="//stevensell.me/cpeg470-forum" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12">
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<h3 class="panel-title">TextTwist</h3>
+								</div>
+								<div class="panel-body">
+									<p>We were tasked with mimicking ...</p>
+								</div>
+								<div class="panel-footer text-center">
+									<div class="btn-group">
+										<a href="//github.com/TheUnCola/TextTwist.git" class="btn btn-default"><span class="icon-github"></span>&nbsp;TextTwist</a>
+										<a href="//github.com/TheUnCola/TextTwist/subscription" class="btn btn-default"><span class="icon-github-watch"></span></a>
+										<a href="//github.com/TheUnCola/TextTwist/fork" class="btn btn-default"><span class="icon-github-fork"></span></a>
+										<a href="//stevensell.me/TextTwist" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix hidden-xs"></div>
+						<div class="col-sm-6 col-xs-12">
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<h3 class="panel-title">Chat App</h3>
+								</div>
+								<div class="panel-body">
+									<p>We created a simple chat app ...</p>
+								</div>
+								<div class="panel-footer text-center">
+									<div class="btn-group">
+										<a href="//github.com/TheUnCola/Chat.git" class="btn btn-default"><span class="icon-github"></span>&nbsp;Chat</a>
+										<a href="//github.com/TheUnCola/Chat/subscription" class="btn btn-default"><span class="icon-github-watch"></span></a>
+										<a href="//github.com/TheUnCola/Chat/fork" class="btn btn-default"><span class="icon-github-fork"></span></a>
+										<a href="//stevensell.me/Chat" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12">
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<h3 class="panel-title">Login Page</h3>
+								</div>
+								<div class="panel-body">
+									<p>I created a login page that utilizes hashing, salting, stretching ...</p>
+								</div>
+								<div class="panel-footer text-center">
+									<div class="btn-group">
+										<a href="//github.com/TheUnCola/Login-Page.git" class="btn btn-default"><span class="icon-github"></span>&nbsp;Login</a>
+										<a href="//github.com/TheUnCola/Login-Page/subscription" class="btn btn-default"><span class="icon-github-watch"></span></a>
+										<a href="//github.com/TheUnCola/Login-Page/fork" class="btn btn-default"><span class="icon-github-fork"></span></a>
+										<a href="//stevensell.me/Login-Page/" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix hidden-xs"></div>
+						<div class="col-sm-6 col-xs-12">
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<h3 class="panel-title">DVWA</h3>
+								</div>
+								<div class="panel-body">
+									<p>Damn Vulnerable Web App used for security education and practice</p>
+								</div>
+								<div class="panel-footer text-center">
+									<div class="btn-group">
+										<a href="//github.com/TheUnCola/DVWA.git" class="btn btn-default"><span class="icon-github"></span>&nbsp;DVWA</a>
+										<a href="//github.com/TheUnCola/DVWA/subscription" class="btn btn-default"><span class="icon-github-watch"></span></a>
+										<a href="//github.com/TheUnCola/DVWA/fork" class="btn btn-default"><span class="icon-github-fork"></span></a>
+										<a href="//stevensell.me/DVWA/" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix hidden-xs"></div>
+					</div>
+				</div>
+			</section>
+			<section id="experience" class="section resources-section">
+				<div class="container">
+				  <h1 class="text-center">Experience</h1>
+				  <div class="row">
+				    <div class="col-sm-12 col-xs-12">
+				      <div class="panel panel-info">
+				        <div class="panel-heading">
+				          <h4 class="panel-title">Work Experience</h4>
+				        </div>
+				        <table class="table table-bordered">
+				          <tbody>
+				            <tr>
+							  <td>IT Assistant</td>
+							  <td>Did Stuff</td>
+							  <td>Sepax Technologies, Inc.</td>
+							  <td>June 2016 - June 2017</td>
+				            </tr>
+							<tr>
+							  <td>Teaching Assistant</td>
+							  <td>CISC181 - Intro to Computer Science</td>
+							  <td>University of Delaware</td>
+							  <td>May 2014</td>
+				            </tr>
+							<tr>
+							  <td>Procurement Assistant</td>
+							  <td>Did Stuff</td>
+							  <td>Sepax Technologies, Inc.</td>
+							  <td>Feb 2015 - June 2016</td>
+				            </tr>
+							<tr>
+							  <td>Accounting Assistant</td>
+							  <td>Did Stuff</td>
+							  <td>Sepax Technologies, Inc.</td>
+							  <td>Sept 2014 - Jan 2015</td>
+				            </tr>
+				          </tbody>
+				        </table>
+				      </div>
+				    </div>
+				    <div class="clearfix hidden-xs"></div>
+				  </div>
+				</div>
+			</section>
+			<section id="other" class="section resources-section">
+				<div class="container">
+				  <h1 class="text-center">Other</h1>
+				  <div class="row">
+				    <div class="col-sm-4 col-xs-12">
+				      <div class="panel panel-info">
+				        <div class="panel-heading">
+				          <h4 class="panel-title">Languages</h4>
+				        </div>
+				        <ul class="list-group">
+				          <li class="list-group-item">Java (JUnit, JavaFX, Swing, UML, MVC)</li>
+				          <li class="list-group-item">C & C++</li>
+				          <li class="list-group-item">HTML/CSS</li>
+						  <li class="list-group-item">JavaScript & JQuery & Angular</li>
+						  <li class="list-group-item">PHP</li>
+						  <li class="list-group-item">MySQL</li>
+				        </ul>
+				      </div>
+				    </div>
+					<div class="col-sm-4 col-xs-12">
+				      <div class="panel panel-info">
+				        <div class="panel-heading">
+				          <h4 class="panel-title">Software</h4>
+				        </div>
+				        <ul class="list-group">
+				          <li class="list-group-item">Eclipse/Alternatives</li>
+				          <li class="list-group-item">Microsoft Office</li>
+				          <li class="list-group-item">Samba File Share</li>
+						  <li class="list-group-item">Git</li>
+						  <li class="list-group-item">QuickBooks</li>
+				        </ul>
+				      </div>
+				    </div>
+					<div class="col-sm-4 col-xs-12">
+				      <div class="panel panel-info">
+				        <div class="panel-heading">
+				          <h4 class="panel-title">Operating Systems</h4>
+				        </div>
+				        <ul class="list-group">
+				          <li class="list-group-item">Ubuntu (Server & Desktop)</li>
+				          <li class="list-group-item">Windows 7/8/10</li>
+				          <li class="list-group-item">Mac</li>
+				        </ul>
+				      </div>
+				    </div>
+				    <div class="clearfix hidden-xs"></div>
+				  </div>
+				</div>
+			</section>
+			<div id="comment-box" class="center">
+				<h1>Comments</h1>
+				<span id="comment-login">You need to login to comment</span>
+				<template id="commentTemplate">
+					<tr>
+						<td class="cUser">
+							
+						</td>
+						<td class="cComment">
+							
+						</td>
+						<td class="cDate">
+							
+						</td>
+					</tr>
+				</template>
+				<table id="commentsGoHere" class="center"></table>
+				<textarea id="comment-text"></textarea>
+				<br />
+				<button type="submit" id="comment-submit">Comment</button>
+			</div>
+			<section id="contact" class="section contact-section">
+				<div class="container">
+					<h1 class="text-center">Contact</h1>
+					<!--<div class="row">
+						<p class="text-center col-xs-12">I welcome you to contact me through one of the methods below.</p>
+						</div>-->
+					<div class="row">
+						<div class="col-lg-offset-3 col-xs-6 col-sm-2 col-lg-1">
+							<div class="text-center">
+								<br><a href="mailto:fake@udel.edu" class="nounder">
+								<span class="icon-mail jumbo-icon"></span>
+								<br><span>Email</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-2 col-lg-1 col-xs-6">
+							<div class="text-center contact">
+								<br><a href="tel:1234567890" class="nounder">
+								<span class="icon-phone jumbo-icon"></span>
+								<br><span>Phone</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-2 col-lg-1 col-xs-6">
+							<div class="text-center contact">
+								<br><a href="skype:skype?chat" class="nounder">
+								<span class="icon-skype jumbo-icon"></span>
+								<br><span>Skype</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-2 col-lg-1 col-xs-6">
+							<div class="text-center contact">
+								<br><a href="//www.facebook.com/" class="nounder">
+								<span class="icon-facebook jumbo-icon"></span>
+								<br><span>Facebook</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-2 col-lg-1 col-xs-6">
+							<div class="text-center contact">
+								<br><a href="//www.linkedin.com/" class="nounder">
+								<span class="icon-linkedin jumbo-icon"></span>
+								<br><span>LinkedIn</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-2 col-lg-1 col-xs-6">
+							<div class="text-center contact">
+								<br><a href="//www.github.com/" class="nounder">
+								<span class="icon-github jumbo-icon"></span>
+								<br><span>Github</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!--<div class="row">
+						<p class="col-xs-12 text-center"><br>If you need reach me via traditional mail, please consult my CV</p>
+						</div>-->
+				</div>
+			</section>
+		</main>
+		<footer>
+			<section id="footer" class="section footer-section">
+				<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<p class="text-center text-uppercase lead">&copy;2017 Steven Sell</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 col-xs-12">
+						<p class="small text-center text-uppercase">Powered by <a href="//www.getbootstrap.com">Bootstrap</a></p>
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<p class="small text-center text-uppercase">Icons by <a href="//www.icomoon.io">Icomoon</a> and&nbsp;<a href="//glyphicons.com">Glyphicons</a>.</p>
+					</div>
+					<div class="col-sm-4 col-xs-12">
+						<p class="small text-center text-uppercase">Layout/Design by <a href="//www.eecis.udel.edu/~wkillian">William&nbsp;Killian</a></p>
+					</div>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>

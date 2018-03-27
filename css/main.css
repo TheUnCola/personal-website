@@ -1,0 +1,37 @@
+.fixed {
+	position:fixed;
+}
+#logout {
+	display:none;
+}
+#comment-box {
+	margin:0 auto;
+	text-align:center;
+}
+.center {
+     margin-left: auto;
+     margin-right: auto;
+}
+.login-container {
+	width:200px;
+	margin-top:50px;
+	text-align:center;
+}
+#login-collapse img {
+	width:35px;
+	cursor:pointer;
+}
+td.cUser {
+	width:100px;
+}
+td.cComment {
+	width:200px;
+}
+td.cComment img {
+	max-width:200px;
+}
+td.cDate {
+	width:100px;
+	font-size:9px;
+	color:grey;
+}
